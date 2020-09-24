@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>1 kW/m2 - Contacto</title>
+
+    <link href="album.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a href="https://1kwm2.com/" class="navbar-brand d-flex align-items-center">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> -->
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-brightness-high-fill" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0z" />
+                    <path fill-rule="evenodd"
+                        d="M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                </svg>
+            </a>
+            <ul class="navbar-nav mr-auto">
+                <a href="index.html" class="nav-link ">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-left" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4.354 11.354a.5.5 0 0 0 0-.708L1.707 8l2.647-2.646a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708 0z" />
+                        <path fill-rule="evenodd" d="M11.5 8a.5.5 0 0 0-.5-.5H2a.5.5 0 0 0 0 1h9a.5.5 0 0 0 .5-.5z" />
+                        <path fill-rule="evenodd"
+                            d="M14 13.5a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 14 2.5H7A1.5 1.5 0 0 0 5.5 4v1.5a.5.5 0 0 0 1 0V4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5H7a.5.5 0 0 1-.5-.5v-1.5a.5.5 0 0 0-1 0V12A1.5 1.5 0 0 0 7 13.5h7z" />
+                    </svg>
+                    Volver
+                </a>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main role="main" class="flex-shrink-0">
+
+        <form id="form" class="container-fluid bg-grey" method="POST">
+            <div class="row mb-3">
+                <div class="col-6 col-md-4 themed-grid-col">
+                    <label for="email">Nombre</label>
+                    <input type="name" class="form-control" id="nombre" placeholder="Nombre" required>
+                    <label for="email">Correo</label>
+                    <input type="email" class="form-control" id="email" placeholder="su correo" required>
+                    <label for="name">soy</label>
+                    <select type="name" class="form-control" id="funcion" required>
+                        <option value="Ingenieria" selected>Ingeniero</option>
+                        <option value="Instalador">Instalador</option>
+                        <option value="Empresa">Empresario</option>
+                        <option value="Particular">Particular</option>
+                    </select>
+                </div>
+                <div class="col-md-8 themed-grid-col">
+                    <label for="name">Comentario o consulta</label>
+                    <textarea class="form-control" id="message2" rows="6" placeholder="Comentario o consulta"
+                        required></textarea>
+                </div>
+            </div>
+            <h4 id="response"></h4>
+            <label><input type="checkbox" class="agree"> Acepto la</label> <a href="./politicaprivacidad.html">Política
+                de Privacidad.</a>
+            <input type="submit" class="btn btn-primary" value="Enviar">
+        </form>
+    </main>
+
+  <footer class="text-muted">
+      <br><br>
+    <div class="container">
+      <p class="float-right">
+        <a href="#">Inicio</a>
+      </p>
+      <p>Creado por <strong>1 kW/m<sup>2</sup></strong> &copy;</p>
+      <!-- <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a
+          href="../getting-started/introduction/">getting started guide</a>.</p> -->
+    </div>
+  </footer>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script>
+            (() => {
+                $('form input[type="submit"]').prop("disabled", true);
+                $(".agree").click(function () {
+                    if ($(this).prop("checked") == true) {
+                        $('form input[type="submit"]').prop("disabled", false);
+                    }
+                    else if ($(this).prop("checked") == false) {
+                        $('form input[type="submit"]').prop("disabled", true);
+                    }
+                });
+                const form = document.querySelector('form');
+                const submitResponse = document.querySelector('#response');
+                const formURL = 'https://1tr4xj0gai.execute-api.eu-west-1.amazonaws.com/Prod/submitForm';
+                form.onsubmit = e => {
+                    e.preventDefault();
+                    // Capture the form data
+                    let data = { "web": "1kw/m2" };
+                    Array.from(form).map(input => (data[input.id] = input.value));
+                    submitResponse.innerHTML = 'Enviando...'
+                    // Create the AJAX request
+                    var xhr = new XMLHttpRequest();
+                    xhr.open(form.method, formURL, true);
+                    xhr.setRequestHeader('Accept', 'application/json; charset=utf-8');
+                    xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+                    // Send the collected data as JSON
+                    xhr.send(JSON.stringify(data));
+                    xhr.onloadend = response => {
+                        if (response.target.status === 200) {
+                            form.reset();
+                            submitResponse.innerHTML = 'Gracias, le contactaremos en breve!';
+                        } else {
+                            submitResponse.innerHTML = 'Error! Por favor intentelo mas tarde.';
+                        }
+                    };
+                };
+            })();
+    </script>
+</body>
+
+</html>
